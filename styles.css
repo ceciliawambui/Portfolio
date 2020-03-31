@@ -1,0 +1,129 @@
+body{
+    background-color:#d4f8e8;
+    max-height: 700px;
+    font-family: 'Playfair Display', serif;
+    /* padding: 0%; */
+
+}
+img{
+    border-radius: 50%;
+
+}
+#hello{
+    font-size: 100px;
+    font-weight: bold;
+
+}
+#bit{
+    font-size: 30px;
+
+}
+#red{
+    background-color:#ff1e56 ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cv{
+    text-transform: uppercase;
+}
+#blue, #yellow{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle{
+    /* padding: 100px; */
+    
+}
+#foot{
+    background-color: hotpink;
+    padding: 10px;
+    /* position: fixed; */
+    width: 100%;
+    margin-top: 4%;
+}
+#maroon{
+    background-color: maroon ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+#cont{
+    padding:50px;
+} 
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: red;
+  }
+
+/* div {
+    border-radius: 5px;
+    padding: 20px;
+  } */
+
+#res{
+    font-weight: bolder;
+}
+#resume{
+    font-size: 100px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    width: 67.5%;
+    padding: 2%;
+}
+#proffesion{
+    padding: 20px;
+    border-bottom: 2px solid black;
+
+}
+#para{
+    margin-left: 150px;
+}
+#param{
+    margin-left: 50px;
+}
+hr.style-three {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    }
+    hr.style-three:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    }
+
