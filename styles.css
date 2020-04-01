@@ -6,16 +6,20 @@ body{
 
 }
 img{
-    border-radius: 50%;
+    border-radius: 8px;
+    padding: 10px;
+   
 
 }
 #hello{
     font-size: 100px;
     font-weight: bold;
+    margin-left: 100px;
 
 }
 #bit{
     font-size: 30px;
+    margin-left: 100px;
 
 }
 #red{
@@ -39,7 +43,9 @@ img{
     justify-content: center;
 }
 #circle{
-    /* padding: 100px; */
+
+    padding: 10px;
+    margin-left: 100px; 
     
 }
 #foot{
@@ -61,7 +67,8 @@ img{
 
 }
 #cont{
-    padding:50px;
+    font-size: 60px;
+    font-weight: bold;
 } 
 input[type=text], select {
     width: 50%;
@@ -107,6 +114,8 @@ input[type=submit]:hover {
 }
 #para{
     margin-left: 150px;
+    padding-top: 2px;
+    padding-bottom: 0%;
 }
 #param{
     margin-left: 50px;
@@ -126,4 +135,25 @@ hr.style-three {
     border-color: black;
     border-width: 0 0 1px 0;
     }
+div.proj {
+  width: 50%;
 
+  background-color: peachpuff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+div.proj:hover{
+    background-color: cyan;
+}
+/*.col-md-6{
+    margin-left: 200px;*/
+}
+.col-md-6-mt-3{
+    border-radius: 50%;
+    padding-top: 5px;
+}
