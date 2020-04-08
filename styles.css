@@ -1,15 +1,26 @@
 body{
-    background-color:#d4f8e8;
+    background-color:#85C1E9 ;
     max-height: 700px;
     font-family: 'Playfair Display', serif;
     /* padding: 0%; */
+    color: black;
 
 }
-img{
-    border-radius: 8px;
+#navbar-nav mr-auto mt-2 mt-lg-0{
+    color: #000;
+}
+}
+#my_name{
+    margin-left: -124px;
+}
+.img{
+    border-radius: 8%;
     padding: 10px;
    
 
+}
+#my_photo{
+    border-radius: 50%;
 }
 #hello{
     font-size: 100px;
@@ -49,9 +60,9 @@ img{
     
 }
 #foot{
-    background-color: hotpink;
+    background-color: pink;
     padding: 10px;
-    /* position: fixed; */
+    
     width: 100%;
     margin-top: 4%;
 }
@@ -69,6 +80,7 @@ img{
 #cont{
     font-size: 60px;
     font-weight: bold;
+    margin-left: -14px;
 } 
 input[type=text], select {
     width: 50%;
@@ -101,7 +113,7 @@ input[type=submit]:hover {
     font-weight: bolder;
 }
 #resume{
-    font-size: 100px;
+    font-size: 50px;
     font-weight: bold;
     border-bottom: 2px solid black;
     width: 67.5%;
@@ -138,7 +150,7 @@ hr.style-three {
 div.proj {
   width: 50%;
 
-  background-color: peachpuff;
+  background-color: pink;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
 }
@@ -148,7 +160,7 @@ div.container {
   padding: 10px 20px;
 }
 div.proj:hover{
-    background-color: cyan;
+    background-color: rgb(17, 212, 212);
 }
 /*.col-md-6{
     margin-left: 200px;*/
